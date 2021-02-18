@@ -1,0 +1,46 @@
+$theme-colors: (
+  "dark": #333333,
+  "primary": #f7941d,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: "raleway";
+  margin: 0;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.home {
+  width: 100%;
+  margin-bottom: 100px;
+}
+
+.nav-transation {
+  transition: all 200ms;
+  text-align: center;
+  .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 32px;
+  }
+}
+
+.hero-text1 {
+  font-size: 52px;
+  font-weight: 900;
+  margin-top: 100px;
+  color: rgba(255, 255, 255, 1);
+}
+.hero-text2 {
+  // font-size: 52px;
+  // font-weight: 900;
+  color: rgba(255, 255, 255, 0.5);
+}
