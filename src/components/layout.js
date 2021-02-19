@@ -29,7 +29,6 @@ const Layout = ({ children }) => {
       <Header />
       <br></br>
       <br></br>
-
       <Row>
         <Col>{children}</Col>
       </Row>

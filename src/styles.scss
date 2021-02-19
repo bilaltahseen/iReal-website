@@ -16,6 +16,7 @@ body {
 
 .home {
   width: 100%;
+
   margin-bottom: 100px;
 }
 
@@ -26,7 +27,17 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 18px;
     font-weight: normal;
+    border-bottom: 3px solid transparent;
   }
+  .navbar-nav .nav-link:hover {
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: normal;
+    border-bottom: 3px solid #f7941d;
+    transition: all 200ms ease;
+    cursor: pointer;
+  }
+
   .navbar-brand {
     font-weight: bold;
     font-size: 32px;
@@ -43,4 +54,14 @@ body {
   // font-size: 52px;
   // font-weight: 900;
   color: rgba(255, 255, 255, 0.5);
+}
+.hero-button {
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0%;
+  &:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #f7941d;
+  }
 }

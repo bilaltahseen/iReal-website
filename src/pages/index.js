@@ -5,7 +5,8 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 import { Home } from "../components/Screens/Home"
-import { About } from "../components/Screens/About"
+
+import Expertiese from "../components/Screens/Expertiese"
 
 const IndexPage = () => (
   <>
@@ -13,7 +14,7 @@ const IndexPage = () => (
       <SEO title="Home" />
       <Home />
     </Layout>
-    <About />
+    <Expertiese />
   </>
 )
 
