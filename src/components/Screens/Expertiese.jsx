@@ -1,7 +1,8 @@
 import React from 'react'
-import { Container } from 'react-bootstrap'
+import { Col, Container, Row } from 'react-bootstrap'
 import {DiReact,DiAndroid,DiPython} from 'react-icons/di'
 import {CgWebsite} from 'react-icons/cg'
+import CardComp from '../Elements/CardComp'
 const Expertiese = () => {
     return (
         <Container className='bg-white p-5 text-center' fluid>
@@ -14,6 +15,23 @@ const Expertiese = () => {
             <DiAndroid className='m-2' color='#6B7A89' size='3rem'/>
             <DiPython className='m-2' color='#6B7A89' size='3rem'/>
             </div>
+            </center>
+            
+            <center>
+            <Row style={{marginTop:100,padding:20}}>
+                <Col md={4}>
+                <CardComp/>
+                </Col >
+                <Col md={4}>
+                <CardComp/>
+                </Col>
+                <Col md={4}>
+                <CardComp/>
+                </Col>
+                <Col md={4}>
+                <CardComp/>
+                </Col >
+            </Row>
             </center>
         </Container>
     )

@@ -19,7 +19,7 @@ const Header = ({ siteTitle }) =>{
     
   <Navbar className='nav-transation' collapseOnSelect  expand="sm" bg="transparent"  variant="dark">
   <Container >
-  <Navbar.Brand className='font-weight-bold' href="#home">iReal</Navbar.Brand>
+  <Navbar.Brand className='font-weight-bold' href="#home">ireal</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className='ml-auto'>

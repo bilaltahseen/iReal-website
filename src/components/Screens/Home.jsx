@@ -10,8 +10,7 @@ export const Home = () => {
             <Col md={{span:'6',offset:'0'}}>
                 
                 <p className='h2 hero-text1'>
-                        Take your Business
-                        to the next level
+                    IT and Media solution providers
                     </p>
                     <p className='hero-text2'>
                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.

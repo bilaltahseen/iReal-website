@@ -45,7 +45,7 @@ body {
 }
 
 .hero-text1 {
-  font-size: 52px;
+  font-size: 48px;
   font-weight: 900;
   margin-top: 100px;
   color: rgba(255, 255, 255, 1);
@@ -64,4 +64,17 @@ body {
     background-color: transparent;
     border: 1px solid #f7941d;
   }
+}
+
+.card-img-custom {
+  padding: 5px;
+  background-color: #f7941d;
+  border-radius: 100px;
+  width: 6em;
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  align-self: center;
 }
