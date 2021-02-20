@@ -4,6 +4,9 @@ $theme-colors: (
 );
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
 
 body {
   font-family: "raleway";
@@ -70,11 +73,37 @@ body {
   padding: 5px;
   background-color: #f7941d;
   border-radius: 100px;
-  width: 6em;
-  height: 6em;
+  width: 4em;
+  height: 4em;
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
   align-self: center;
+}
+
+.client-card {
+  border: 1px solid #c4c7cb;
+  border: 0px;
+  display: flex;
+  border-radius: 0px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.clients-comp {
+  background-color: #f9f9f9;
+  padding: 150px;
+  padding-top: 40px;
+}
+@include media-breakpoint-down(sm) {
+  // Styles
+  .clients-comp {
+    padding: 10px;
+    h2 {
+      margin-top: 30px;
+    }
+  }
 }

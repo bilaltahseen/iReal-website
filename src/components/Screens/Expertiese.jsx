@@ -18,7 +18,7 @@ const Expertiese = () => {
             </center>
             
             <center>
-            <Row style={{marginTop:100,padding:20}}>
+            <Row style={{marginTop:60,padding:20}}>
                 <Col md={4}>
                 <CardComp/>
                 </Col >

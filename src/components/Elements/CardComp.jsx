@@ -5,7 +5,7 @@ const CardComp = () => {
   return (
     <Card style={{ width: "18rem",border:'0px',display:'flex',marginTop:'50px' }}>
       <div className='card-img-custom'>
-      <SiReactos size='3em'/>
+      <SiReactos size='2em'/>
       </div>
       <Card.Body>
         <Card.Title>Card Title</Card.Title>
