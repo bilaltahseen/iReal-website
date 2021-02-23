@@ -4,7 +4,7 @@ import { Image } from 'react-bootstrap'
 function ClientCard() {
     return (
         <div className='client-card'>
-      <Image fluid  src='https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/07/door-company-logo.jpg'></Image>
+      <Image fluid  src='http://assets.stickpng.com/images/580b57fcd9996e24bc43c53e.png'></Image>
     </div>
     )
 }

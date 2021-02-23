@@ -8,6 +8,8 @@ import { Home } from "../components/Screens/Home"
 
 import Expertiese from "../components/Screens/Expertiese"
 import Clients from "../components/Screens/Clients"
+import About from "../components/Screens/About"
+import Contact from "../components/Screens/Contact"
 
 const IndexPage = () => (
   <>
@@ -17,6 +19,8 @@ const IndexPage = () => (
     </Layout>
     <Expertiese />
     <Clients />
+    <About />
+    <Contact />
   </>
 )
 

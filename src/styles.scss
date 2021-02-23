@@ -97,6 +97,7 @@ body {
   background-color: #f9f9f9;
   padding: 150px;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 @include media-breakpoint-down(sm) {
   // Styles
@@ -106,4 +107,30 @@ body {
       margin-top: 30px;
     }
   }
+}
+
+.p-form {
+  padding: 100px;
+}
+
+.submit-btn {
+  color: #fff;
+  width: 20%;
+  font-weight: 400;
+  border-radius: 0%;
+  &:hover {
+    color: #f7941d;
+    background-color: transparent;
+    border: 1px solid #f7941d;
+  }
+}
+
+.secondRow {
+  background-color: #f0f0f0;
+}
+
+.line {
+  height: 4px;
+  background-color: #cb6485;
+  width: 41px;
 }
