@@ -1,5 +1,6 @@
 import React from "react"
-import { Container, Row, Col, Button, Image } from "react-bootstrap"
+import { Container, Row, Col, Button } from "react-bootstrap"
+import Image from "../image"
 
 export const Home = () => {
   return (
@@ -19,7 +20,7 @@ export const Home = () => {
         </Col>
         <Col className="text-right" md={{ span: "6", offset: "0" }}>
           <br></br>
-          <Image fluid width={400} src="undraw_Powerful_re_frhr.svg"></Image>
+          <Image imgsrc="undraw_Powerful_re_frhr.png"></Image>
         </Col>
       </Row>
     </Container>

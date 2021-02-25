@@ -22,7 +22,7 @@ export default class Image extends React.Component {
             allImageSharp {
               edges {
                 node {
-                  fluid(maxWidth: 1200) {
+                  fluid(maxWidth: 800) {
                     ...GatsbyImageSharpFluid
                   }
                 }
@@ -33,6 +33,7 @@ export default class Image extends React.Component {
         render={data => {
           return (
             <Img
+              className={this.props.className}
               fluid={
                 data.allImageSharp.edges.find(element => {
                   // Match string after final slash

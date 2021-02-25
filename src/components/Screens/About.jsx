@@ -1,5 +1,6 @@
 import React from "react"
 import { Container } from "react-bootstrap"
+import Image from "../image"
 const About = ({ id }) => {
   return (
     <div>
@@ -23,13 +24,12 @@ const About = ({ id }) => {
               </p>
             </div>
           </div>
-          <div className="secondRow row p-3">
-            <div className="text-center col-md-7 pl-md-4">
-              <img
-                alt="Team sprint meeting"
-                src="undraw_team_spirit_hrr4.svg"
+          <div className="secondRow row p-3 ">
+            <div className="d-md-block d-flex justify-content-center col-md-7 pl-md-4">
+              <Image
                 className="h-auto w-75 img-fluid mb-5 full-width"
-              />
+                imgsrc="undraw_team_spirit_hrr4.png"
+              ></Image>
             </div>
             <div className="col-md-5 p-md-5 mt-md-5">
               <p>
