@@ -1,19 +1,20 @@
 import React from "react"
-import { Card, Button } from "react-bootstrap"
-import {SiReactos} from 'react-icons/si'
-const CardComp = () => {
+import { Card } from "react-bootstrap"
+
+const CardComp = ({ exp_logo, exp_name, exp_details }) => {
   return (
-    <Card style={{ width: "18rem",border:'0px',display:'flex',marginTop:'50px' }}>
-      <div className='card-img-custom'>
-      <SiReactos size='2em'/>
-      </div>
+    <Card
+      style={{
+        width: "18rem",
+        border: "0px",
+        display: "flex",
+        marginTop: "50px",
+      }}
+    >
+      <div className="card-img-custom">{exp_logo}</div>
       <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text style={{opacity:0.6}}>
-          Some quick example text to build on the card title and make up the
-          bulk of the card's content.
-        </Card.Text>
-       
+        <Card.Title>{exp_name}</Card.Title>
+        <Card.Text style={{ opacity: 0.6 }}>{exp_details}</Card.Text>
       </Card.Body>
     </Card>
   )

@@ -1,9 +1,9 @@
 import React from "react"
 import { Container } from "react-bootstrap"
-const About = () => {
+const About = ({ id }) => {
   return (
     <div>
-      <Container className="bg-white" fluid>
+      <Container id={id} className="bg-white" fluid>
         <h2 className="text-center p-3">About Us</h2>
         <div className="bg-white container-fluid">
           <div className="row">
@@ -24,12 +24,12 @@ const About = () => {
             </div>
           </div>
           <div className="secondRow row p-3">
-            <div className="col-md-7 pl-md-4">
+            <div className="text-center col-md-7 pl-md-4">
               <img
+                alt="Team sprint meeting"
                 src="undraw_team_spirit_hrr4.svg"
                 className="h-auto w-75 img-fluid mb-5 full-width"
               />
-              <div className="mb-md-5 ml-md-5"></div>
             </div>
             <div className="col-md-5 p-md-5 mt-md-5">
               <p>
