@@ -12,6 +12,7 @@ import Contact from "../components/Screens/Contact"
 import Footer from "../components/Screens/Footer"
 
 import { FaArrowCircleUp } from "react-icons/fa"
+import Projects from "../components/Screens/Projects"
 const IndexPage = () => (
   <>
     <a href="/#" className="float">
@@ -25,6 +26,7 @@ const IndexPage = () => (
     </Layout>
     <section>
       <Expertiese id="experties" />
+      <Projects id="projects" />
       <Clients id="clients" />
       <About id="about" />
       <Contact id="contact" />

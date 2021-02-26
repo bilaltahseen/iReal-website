@@ -37,7 +37,7 @@
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
-    "start-mobile": "gatsby develop -H 0.0.0.0",
+    "start:mobile": "gatsby develop -H 0.0.0.0",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
